@@ -1,4 +1,4 @@
-package com.springframework.petclinic;
+package com.springframework;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
