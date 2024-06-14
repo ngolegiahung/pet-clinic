@@ -1,13 +1,13 @@
 package com.springframework.services.map;
 
 import com.springframework.model.Speciality;
-import com.springframework.services.SpecialitiesService;
+import com.springframework.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Speciality findById(Long id) {
         return super.findById(id);
